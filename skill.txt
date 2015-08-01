@@ -1,0 +1,6 @@
+clone
+	git clone
+push first 
+	git push -u origin master
+push other
+	git push origin master
