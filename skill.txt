@@ -4,3 +4,26 @@ push first
 	git push -u origin master
 push other
 	git push origin master
+
+create repository
+	mkdir learngit
+	git init
+
+add to workspace zone
+	vim readme.txt
+add to cache zoe
+	git add readme.txt
+add to branch zone
+	git commit -m "add readme file"
+
+look status
+	git status
+
+look diff
+	git diff HEAD -- readme.txt
+
+canle add to cache zone
+	git reset HEAD readme.txt
+
+check out / get least one
+	git checkout -- readme.txt
